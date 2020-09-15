@@ -1,0 +1,44 @@
+.section
+{
+	color: yellow;
+	font-family: Monospace,Sans-serif;
+	text-align: center;
+	font-size: 19pt;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px lightyellow;
+	padding: 50px;
+	border-style: dashed;
+	border-width: 2px;
+	border-spacing: 16px;
+	border-color: yellow;
+	border-radius: 16px;
+	background-color: black;
+	}
+.quote
+{
+	font-style:italic;
+	}
+#header
+{
+	font-weight:bolder;
+	}
+#footer
+{
+	list-style-type: disc;
+}
+#tasks
+{
+	list-style-type: circle;
+}
+a:link
+{
+	text-decoration: none;
+}
+a:visited
+{
+	color: red;
+}
+a:hover
+{
+	color: LightBlue;
+}
