@@ -1,34 +1,49 @@
-.section
+body
 {
-	color: yellow;
-	font-family: Monospace,Sans-serif;
-	text-align: center;
+	background-image:
+	url("background.jpg");
+	font-family: Monospace, Helvetica, Arial, sans-serif;
 	font-size: 19pt;
-	font-weight: bold;
-	text-shadow: 2px 2px 5px lightyellow;
-	padding: 50px;
-	border-style: dashed;
-	border-width: 2px;
-	border-spacing: 16px;
-	border-color: yellow;
-	border-radius: 16px;
-	background-color: black;
-	}
-.quote
-{
-	font-style:italic;
-	}
+	color: cyan;
+}
 #header
 {
-	font-weight:bolder;
-	}
-#footer
+	text-align: center;
+	border: 2px solid rgba(0,255,255,0.5);
+	width: 100%;
+	padding: 2px;
+	font-size: 20px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 16px;
+}
+#abme
 {
-	list-style-type: disc;
+	text-align: center;
+	border: 2px solid cyan;
+	margin-top: 80px;
+	border-radius: 16px;
+	background-color: rgba(0,0,0,0.5);
 }
 #tasks
 {
+	text-align: center;
+	border: 2px solid cyan;
+	margin-top: 10px;
+	border-radius: 16px;
+	background-color: rgba(0,0,0,0.5);
 	list-style-type: circle;
+}
+#footer
+{
+	text-align: center;
+	border: 2px solid cyan;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 10px;
+	border-radius: 16px;
 }
 a:link
 {
@@ -36,7 +51,7 @@ a:link
 }
 a:visited
 {
-	color: red;
+	color: cyan;
 }
 a:hover
 {
