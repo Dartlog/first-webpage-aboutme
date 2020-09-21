@@ -1,46 +1,41 @@
 body
 {
-	font-family: sans-serif;
+	font-family: sans-serif, Helvetica, Arial;
 	color: darkcyan;
 	background-image: url(background.jpg);
+	font-size: 22px;
+	text-align: center;
+	list-style-type: circle;
 }
-#body
-{
-	border: 0px solid black;
-}
-
 #header
 {
-	margin-top: -10px;
+	margin-top: -22px;
 	border: 2px solid cyan;
+	border-radius: 16px;
 	background-color: #dbdbdb;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding-left: 30px;
 	font-size: 25px;
-	text-shadow: 2px 2px 2px cyan;
-	box-shadow: 6px 6px 8px -2px rgba(0,255,255,0.8);
+	text-shadow: 1px 1px 2px cyan;
+	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
 }
 #abme
 {
-	padding: 8px;
-	text-align: center;
+	padding: 10px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
 	border: 2px solid cyan;
 	background-color: #dbdbdb;
 	border-radius: 16px;
-	box-shadow: 6px 6px 8px -2px rgba(0,255,255,0.8);
+	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
 	animation-name: pullup;
 	-webkit-animation-name: pullup;	
-
 	animation-duration: 1.1s;	
 	-webkit-animation-duration: 1.1s;
-
 	animation-timing-function: ease-out;	
 	-webkit-animation-timing-function: ease-out;	
-
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%;
@@ -98,48 +93,40 @@ body
 }
 #tasks
 {
-	padding: 8px;
-	text-align: center;
+	padding: 10px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
 	border: 2px solid cyan;
 	background-color: #dbdbdb;
 	border-radius: 16px;
-	box-shadow: 6px 6px 8px -2px rgba(0,255,255,0.8);
+	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
 	animation-name: pullup;
-	-webkit-animation-name: pullup;	
-
+	-webkit-animation-name: pullup;
 	animation-duration: 1.1s;	
 	-webkit-animation-duration: 1.1s;
-
 	animation-timing-function: ease-out;	
 	-webkit-animation-timing-function: ease-out;	
-
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%;
 }
 #footer
 {
-	padding: 8px;
-	text-align: center;
+	padding: 12px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
 	border: 2px solid cyan;
 	background-color: #dbdbdb;
 	border-radius: 16px;
-	box-shadow: 6px 6px 8px -2px rgba(0,255,255,0.8);
+	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
 	animation-name: pullup;
 	-webkit-animation-name: pullup;	
-
 	animation-duration: 1.1s;	
 	-webkit-animation-duration: 1.1s;
-
 	animation-timing-function: ease-out;	
 	-webkit-animation-timing-function: ease-out;	
-
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%;
@@ -147,6 +134,10 @@ body
 a:link
 {
 	text-decoration: none;
+}
+a:visited
+{
+	color: darkcyan;
 }
 a:hover
 {
