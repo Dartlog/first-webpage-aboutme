@@ -22,7 +22,7 @@ body
 }
 #abme
 {
-	padding: 10px;
+	padding: 2px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
@@ -93,7 +93,7 @@ body
 }
 #tasks
 {
-	padding: 10px;
+	padding: 6px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
@@ -113,7 +113,7 @@ body
 }
 #footer
 {
-	padding: 12px;
+	padding: 6px;
 	margin-top: 10px;
 	margin-left: 10vw;
 	margin-right: 10vw;	
