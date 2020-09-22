@@ -16,20 +16,19 @@ body
 	margin-left: 0px;
 	margin-right: 0px;
 	font-size: 25px;
-	text-shadow: 1px 1px 2px cyan;
-	animation: slide-bck-top 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both, text-shadow-drop-right 1s 1.5s both;
+	animation: slide-bck-top 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 0.6s 1s both, text-shadow-drop-right 0.6s 1s both;
 }
 #abme
 {
 	padding: 2px;
 	margin-top: 10px;
-	margin-left: 10vw;
-	margin-right: 10vw;	
+	margin-left: 8vw;
+	margin-right: 8vw;
 	border: 2px solid cyan;
 	border-radius: 16px;
 	background-color: #dbdbdb;
 	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
+	animation: slide-bck-left 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 0.7s 1s both;
 }
 #quote
 {
@@ -39,66 +38,66 @@ body
 {
 	padding: 6px;
 	margin-top: 10px;
-	margin-left: 10vw;
-	margin-right: 10vw;	
+	margin-left: 8vw;
+	margin-right: 8vw;
 	border: 2px solid cyan;
 	border-radius: 16px;
 	background-color: #dbdbdb;
 	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-right 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
+	animation: slide-bck-right 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 0.8s 1s both;
 }
 #footer
 {
 	padding: 6px;
 	margin-top: 10px;
-	margin-left: 10vw;
-	margin-right: 10vw;	
+	margin-left: 8vw;
+	margin-right: 8vw;
 	border: 2px solid cyan;
 	border-radius: 16px;
 	background-color: #dbdbdb;
-	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
+	animation: slide-bck-left 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 0.9s 1s both;
 }
 #link1
 {
 	margin: auto;
 	list-style-type: none;
-	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
+	animation: slide-out-blurred-left 0.45s 1.2s reverse both;
 }
 #link2
 {
 	margin-top: auto;
 	list-style-type: none;
-	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
+	animation: slide-out-blurred-left 0.45s 1.2s reverse both;
 }
 #link3
 {
 	margin-top: auto;
 	list-style-type: none;
-	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
+	animation: slide-out-blurred-left 0.45s 1.2s reverse both;
 }
 #link4
 {
 	margin-top: auto;
 	list-style-type: none;
-	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
+	animation: slide-out-blurred-left 0.45s 1.2s reverse both;
 }
 /* -----------------------------------
  * animation keyframes section start
  * ----------------------------------*/
 @keyframes shadow-box-animation {
 	0% {
-	 box-shadow: 2px 6px 16px -2px rgba(0,255,255,0);
+	 box-shadow: 0 0 16px 1px rgba(0,255,255,0);
 	}
 	100% {
-	 box-shadow: 2px 6px 16px -2px rgba(0,255,255,1);
+	 box-shadow: 0 0 16px 1px rgba(0,255,255,1);
 	}
 }
 @keyframes text-shadow-drop-right {
   0% {
-    text-shadow: 6px 0 18px rgba(0,255,255,0);
+    text-shadow: 6px 2px 18px rgba(0,255,255,0);
   }
   100% {
-    text-shadow: 1px 1px 2px rgba(0,255,255,1);
+    text-shadow: 0 0 5px rgba(0,255,255,1);
   }
 }
 @keyframes slide-out-blurred-left {
@@ -159,6 +158,7 @@ body
 a:link
 {
 	text-decoration: none;
+	color: darkcyan;
 }
 a:visited
 {
