@@ -17,8 +17,7 @@ body
 	margin-right: 0px;
 	font-size: 25px;
 	text-shadow: 1px 1px 2px cyan;
-	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-top 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+	animation: slide-bck-top 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both, text-shadow-drop-right 1s 1.5s both;
 }
 #abme
 {
@@ -30,7 +29,7 @@ body
 	border-radius: 16px;
 	background-color: #dbdbdb;
 	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
 }
 #quote
 {
@@ -46,7 +45,7 @@ body
 	border-radius: 16px;
 	background-color: #dbdbdb;
 	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-right 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+	animation: slide-bck-right 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
 }
 #footer
 {
@@ -57,8 +56,7 @@ body
 	border: 2px solid cyan;
 	border-radius: 16px;
 	background-color: #dbdbdb;
-	box-shadow: 2px 6px 16px -2px rgba(0,255,255,0.8);
-	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+	animation: slide-bck-left 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both, shadow-box-animation 1s 1.5s both;
 }
 #link1
 {
@@ -78,9 +76,31 @@ body
 	list-style-type: none;
 	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
 }
+#link4
+{
+	margin-top: auto;
+	list-style-type: none;
+	animation: slide-out-blurred-left 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) 1s reverse both;
+}
 /* -----------------------------------
  * animation keyframes section start
  * ----------------------------------*/
+@keyframes shadow-box-animation {
+	0% {
+	 box-shadow: 2px 6px 16px -2px rgba(0,255,255,0);
+	}
+	100% {
+	 box-shadow: 2px 6px 16px -2px rgba(0,255,255,1);
+	}
+}
+@keyframes text-shadow-drop-right {
+  0% {
+    text-shadow: 6px 0 18px rgba(0,255,255,0);
+  }
+  100% {
+    text-shadow: 1px 1px 2px rgba(0,255,255,1);
+  }
+}
 @keyframes slide-out-blurred-left {
   0% {
     transform: translateX(0) scaleY(1) scaleX(1);
